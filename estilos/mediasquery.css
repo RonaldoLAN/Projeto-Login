@@ -1,0 +1,44 @@
+
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    body {
+        background-image: linear-gradient(to bottom, #002147, #36454F);
+    }
+    section#login {
+        width: 80vw;
+        height: 280px;
+    }
+    section#login > div#aviao {
+        background-position: center;
+        width: 30%;
+        height: 100%;
+        float: left;
+    }
+    section#login > div#forms {
+        float: right;
+        width: 70%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    div#forms > p {
+        font-size: 1em;
+    }
+    body {
+        background-image: linear-gradient(to bottom, #002147, #36454F);
+    }
+    section#login {
+        width: 990px;
+        height: 350px;
+    }
+    section#login > div#aviao {
+        background-position: center;
+        width: 50%;
+        height: 100%;
+        float: right;
+    }
+    section#login > div#forms {
+        float: right;
+        width: 50%;
+    }
+}
